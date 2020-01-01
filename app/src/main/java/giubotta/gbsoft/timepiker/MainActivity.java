@@ -12,6 +12,8 @@ import android.widget.TimePicker;
 
 public class MainActivity extends AppCompatActivity implements TimePickerDialog.OnTimeSetListener {
 
+    private final float DEFAULT_ZOOM = 15;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
